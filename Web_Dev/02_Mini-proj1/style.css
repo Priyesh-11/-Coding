@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.shape {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#square:hover {
+    background-color: red;
+}
+#circle:hover {
+    background-color: green;
+}
+#diamond:hover {
+    background-color: blue;
+}
+
+#circle {
+    border-radius: 50%;
+}
+
+#diamond {
+    rotate: 45deg;
+    width: 141.4px;
+    height: 141.4px;
+}
+
+#diamond h1 {
+    rotate: -45deg;
+}
+
+#box {
+    border: 0px;
+}

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    
+  
+}
+
+#header{
+    height: 12%;
+    width: 100%;
+    position : fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#fakeheader{
+    height: 12%;
+    width: 100%;
+}
+
+
+#logo{
+    border: 2px solid black;
+    border-radius: 25%;
+    height: 70%;
+    width: 10%;
+    object-fit: cover;
+    overflow: hidden;
+    
+   
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.texts{
+    
+    color: rgb(107, 4, 4);
+    font-weight: bold;
+    font-size: large;
+}
+
+.texts:hover{
+    
+    color: rgb(207, 7, 7);
+    
+}
+
+#contact{
+    text-align: center;
+    font-weight: lighter
+}
+
+.icon{
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+
+#login{
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;display: flex;
+}
+
+#login:hover{
+    background-color: lightblue;
+    
+}
+
+#try{
+    background-color: green;
+    padding: 10px 30px; 
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#try:hover{
+    background-color: rgb(0, 49, 0);
+}
+
+#page1{
+    height: 88%;
+    width: 100%;
+    background-color: rgb(205, 69, 69);
+}
+
+#strip{
+    height: 7% ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: #1f0974;
+    font-weight: bolder;
+    color: #fafafa;
+    font-size: large;
+}
+#strip p{
+    margin-left: 25px;
+
+}
+
+#strip img{
+    height: 50%;
+
+}
+
+#content{
+    display: flex;
+    height:81% ;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box1{
+    height: 95%;
+    width: 45%;
+    background-color: lightcoral;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+#box2{
+    height: 95%;
+    width: 45%;
+    background-color: rgb(100, 75, 75);
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#page2{
+    height: 88%;
+    width: 100%;
+    background-color: lightcoral;
+    
+}

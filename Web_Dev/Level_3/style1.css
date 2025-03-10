@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+div{
+
+    height: 30%;
+    width: 30%;
+    background-image: url(https://e0.pxfuel.com/wallpapers/661/618/desktop-wallpaper-minimalist-mountains-snow-1440p-resolution-background-and-minimalist-blue.jpg);
+    background-size: cover;
+    position:  fixed;
+    right: 0px;
+    top: 100px;
+
+}
