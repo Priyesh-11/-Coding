@@ -18,5 +18,7 @@ let islogin = true;
 //symbol => Symbol("description") (unique and immutable value)
 //object => {key: value} (key-value pair)
 
-console.log(typeof null); //object
-console.log(typeof undefined); //undefined
+// console.log(typeof null); //object
+// console.log(typeof undefined); //undefined
+// console.log(typeof Symbol("description")); //symbol
+
