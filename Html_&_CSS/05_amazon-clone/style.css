@@ -24,7 +24,6 @@ body {
     height: 50px;
     width: 114px;
     padding: 0px 4px 0px 2px;
-    
 }
 
 .logo {
@@ -32,40 +31,35 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 10% 70%;
-    
+
     height: 50px;
     width: 100px;
-    
-
-    
 }
 
-.border{
+.border {
     border: 2px solid transparent;
     padding: 5px;
 }
 
-.border:hover{
+.border:hover {
     border: 2px solid white;
     padding: 5px;
 }
 
 /**box 2**/
 
-.addicon{
+.addicon {
     display: flex;
     width: 88px;
 }
 
-.deliver{
+.deliver {
     font-size: 0.8rem;
     color: #cccc;
     padding-left: 15px;
 }
 
-
-
-.India{
+.India {
     font-size: 0.9rem;
     color: #ffff;
     margin-left: 3px;
@@ -74,25 +68,21 @@ body {
 
 /* box 3 */
 
-.navsearch{
+.navsearch {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 890px;
     height: 44px;
     border-radius: 5px;
-
 }
 
-.navsearch:hover{
+.navsearch:hover {
     border: 3px solid orange;
     border-radius: 5px;
-    
 }
 
-
-
-.search-select{
+.search-select {
     width: 54px;
     height: 40px;
     background-color: #f3f3f3;
@@ -102,14 +92,14 @@ body {
     border-bottom-left-radius: 5px;
 }
 
-.search-input{
+.search-input {
     height: 40px;
     width: 100%;
     font-size: 1rem;
     border: none;
 }
 
-.search-icon{
+.search-icon {
     width: 50px;
     height: 40px;
     display: flex;
@@ -117,42 +107,37 @@ body {
     align-items: center;
     font-size: 1.2rem;
     background-color: #febd68;
-    border-top-RIGHT-radius: 5px;
+    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    color:#111 ;
+    color: #111;
 }
 
 /*     box 4 and 5 */
 
-.navsing{
-    height: 50px; 
+.navsing {
+    height: 50px;
     width: 130px;
-
 }
 
-.hellosing{
+.hellosing {
     font-size: 0.75rem;
-
 }
 
-.accsing{
+.accsing {
     font-weight: 700;
     font-size: 0.85rem;
 }
-
 
 /*   box 6  */
 
-.navcart i{
+.navcart i {
     font-size: 30px;
 }
 
-.navcart{
+.navcart {
     font-size: 0.85rem;
     font-weight: 700;
 }
-
-
 
 /*  panel  */
 
@@ -163,71 +148,138 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
-.panelall{
+.panelall {
     margin-left: 15px;
 }
 
-.panelops p{
+.panelops p {
     display: inline;
     margin: 5px 0px 6px;
     padding: 8px 9px;
     font-size: 0.9rem;
-
 }
 
-.panelops{
+.panelops {
     width: 80%;
 }
 
-.panelmade{
+.panelmade {
     font-size: 0.85rem;
     font-weight: 700;
-
 }
-
 
 /*   hero img   */
 
-.hero-img{
-    background-image: url("https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg");
-    height: 600px;
-    background-size: contain;
+.page1 {
+    background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0) 60%,
+            rgba(255, 255, 255, 1) 100%
+        ),
+        url("https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg");
+
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    height: 600px;
+    width: 100%;
+}
+
+.hero-img {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
 }
 
-.herostrip{
+.herostrip {
     height: 40px;
     width: 95%;
-    
+    margin-top: 250px;
     padding: 10px 14px;
     background-color: #f5f6f6;
     color: #000000;
     display: flex;
     justify-content: center;
-    margin-bottom: 300px;
     font-size: 0.95rem;
 }
 
-.herostrip a{
+.herostrip a {
     color: rgb(169, 67, 67);
     font-weight: 700;
 }
 
- /* shop section */
+/* shop section */
 
-.shopsec{
-
+.shopsec {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-.box{
-    /* width: 350px ;
-    height: 420px; */
+.box {
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    background-color: white;
+    margin-top: 15px;
+}
+
+.box h3{
+    padding: 0px 20px ;
+    margin: 20px 0px 10px;
+    font-size: 1.3rem;
+}
+
+.boximg1{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/Gaming_zone_1x._SY304_CB540253513_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 340px;
+    padding: 20px 0px 15px;
+}
+
+.boximg2{
+    background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 340px;
+    padding: 20px 0px 15px;
+}
+
+
+.boximg3{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1555947_2997386_379x304_1X_en_US._SY304_CB594429819_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 340px;
+    padding: 20px 0px 15px;
+}
+
+
+.boximg4{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 340px;
+    padding: 20px 0px 15px;
+}
+
+.boxcon{
+    margin: 30px 10px  ;
+}
+
+.box p{
+    font-size: 0.85rem;
+    color: #007185;
+    margin-top: 20px;
+    padding-bottom: 10px;
 }
