@@ -27,7 +27,7 @@ console.log(myarray2); // ['a', 'e'] - myarray2 is now modified
 
 
 
-const slice = myarray3.slice(1, 2); // ['b', 'c'] - returns a shallow copy of the selected elements
+const slice = myarray3.slice(1, 3); // ['b', 'c'] - returns a shallow copy of the selected elements
 console.log(slice); // ['b', 'c'] - returns the selected elements
 console.log(myarray3); // ['a', 'b', 'c', 'd', 'e'] - myarray3 is unchanged
 
